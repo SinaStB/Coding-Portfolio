@@ -1,0 +1,228 @@
+{UTF-8}
+black home distance to better schools  = A FUNCTION OF( "economic disparity rel. to other students"\
+		,neighborhood segragation)
+	~	
+	~		|
+
+black public support of integration  = A FUNCTION OF( "economic disparity rel. to other students"\
+		)
+	~	
+	~		|
+
+black school neighborhood funds  = A FUNCTION OF( fund to balck schools instead of integration\
+		,school segragation)
+	~	
+	~		|
+
+black schools shutting down  = A FUNCTION OF( black school neighborhood funds)
+	~	
+	~		|
+
+"economic disparity rel. to other students"  = A FUNCTION OF( students' school achievement\
+		,students' job readiness)
+	~	
+	~		|
+
+educational services accessibility  = A FUNCTION OF( black home distance to better schools\
+		,black schools shutting down)
+	~	
+	~		|
+
+fund to balck schools instead of integration  = A FUNCTION OF( black public support of integration\
+		)
+	~	
+	~		|
+
+neighborhood segragation  = A FUNCTION OF( public education integration,public education racist policies\
+		)
+	~	
+	~		|
+
+public education integration  = A FUNCTION OF( fund to balck schools instead of integration\
+		)
+	~	
+	~		|
+
+public education racist policies  = A FUNCTION OF( SFUSD goals of equity and diversity\
+		,SFUSD not using race in school assignment,"using non-political mechanisms for school assignement - e.g. matching algorithm"\
+		)
+	~	
+	~		|
+
+public support of using matching mechanisms  = A FUNCTION OF( neighborhood segragation\
+		,school segragation)
+	~	
+	~		|
+
+"school extracur. class diversity"  = A FUNCTION OF( black school neighborhood funds)
+	~	
+	~		|
+
+"school req. resources affordance"  = A FUNCTION OF( black school neighborhood funds)
+	~	
+	~		|
+
+school segragation  = A FUNCTION OF( neighborhood segragation)
+	~	
+	~		|
+
+school teacher affordance  = A FUNCTION OF( black school neighborhood funds)
+	~	
+	~		|
+
+SFUSD goals of equity and diversity  = A FUNCTION OF( black public support of integration\
+		,black public support of integration)
+	~	
+	~		|
+
+SFUSD not using race in school assignment  = A FUNCTION OF( black public support of integration\
+		)
+	~	
+	~		|
+
+student grade  = A FUNCTION OF( students' school achievement)
+	~	
+	~		|
+
+students' job readiness  = A FUNCTION OF( students' job readiness,"school extracur. class diversity"\
+		,"school req. resources affordance",school teacher affordance,students' job readiness\
+		)
+	~	
+	~		|
+
+students' school achievement  = A FUNCTION OF( educational services accessibility,"school extracur. class diversity"\
+		,"school req. resources affordance",school teacher affordance,student grade)
+	~	
+	~		|
+
+"using non-political mechanisms for school assignement - e.g. matching algorithm"  = A FUNCTION OF( \
+		public support of using matching mechanisms)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$-1--1--1,0,|12||-1--1--1|-1--1--1|-1--1--1|-1--1--1|-1--1--1|96,96,87,0
+12,1,0,1025,627,111,29,3,7,0,46,-1,0,0,0,0-0-0,255-255-0,Tahoma|14||0-0-0,0,0,1,0,0,0
+School Segragation in SanFrancisco
+10,2,students' school achievement,335,514,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,3,student grade,415,346,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,4,educational services accessibility,517,418,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,5,black home distance to better schools,674,344,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,6,"school extracur. class diversity",649,667,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,7,neighborhood segragation,947,163,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,8,black school neighborhood funds,902,461,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,9,school teacher affordance,673,590,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,10,"school req. resources affordance",673,513,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,11,8,6,1,0,43,0,0,128,0,-1--1--1,,1|(866,584)|
+1,12,8,10,1,0,43,0,0,128,0,-1--1--1,,1|(818,523)|
+1,13,8,9,1,0,43,0,0,128,0,-1--1--1,,1|(826,568)|
+10,14,"economic disparity rel. to other students",259,317,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,15,SFUSD goals of equity and diversity,513,74,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,16,public education racist policies,784,89,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,17,10,2,1,0,43,0,0,128,0,-1--1--1,,1|(514,494)|
+1,18,9,2,1,0,43,0,0,128,0,-1--1--1,,1|(510,524)|
+1,19,6,2,1,0,43,0,0,128,0,-1--1--1,,1|(489,569)|
+1,20,10,24,1,0,43,0,0,128,0,-1--1--1,,1|(456,576)|
+1,21,9,24,1,0,43,0,0,128,0,-1--1--1,,1|(445,609)|
+1,22,6,24,1,0,43,0,0,128,0,-1--1--1,,1|(428,648)|
+1,23,2,2,0,0,43,0,0,128,0,-1--1--1,,1|(0,0)|
+10,24,students' job readiness,265,595,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,25,24,24,0,0,43,0,0,128,0,-1--1--1,,1|(0,0)|
+1,26,2,14,1,0,43,0,0,193,0,-1--1--1,,1|(279,405)|
+1,27,24,14,1,0,43,0,0,128,0,-1--1--1,,1|(217,476)|
+1,28,16,7,1,0,43,0,0,128,0,-1--1--1,,1|(902,106)|
+10,29,SFUSD not using race in school assignment,529,154,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,30,black public support of integration,265,138,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,31,30,15,1,0,45,0,0,128,0,-1--1--1,,1|(360,86)|
+1,32,15,16,1,0,45,0,0,128,0,-1--1--1,,1|(649,54)|
+1,33,29,16,1,0,43,0,0,128,0,-1--1--1,,1|(689,136)|
+1,34,30,29,1,0,43,0,0,128,0,-1--1--1,,1|(380,154)|
+10,35,fund to balck schools instead of integration,521,228,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,36,35,8,1,0,43,0,0,128,0,-1--1--1,,1|(816,329)|
+1,37,2,3,1,0,43,0,0,128,0,-1--1--1,,1|(348,398)|
+1,38,30,35,1,0,45,0,0,128,0,-1--1--1,,1|(396,215)|
+1,39,5,4,1,0,45,0,0,128,0,-1--1--1,,1|(558,357)|
+1,40,7,5,1,0,43,0,0,128,0,-1--1--1,,1|(843,284)|
+1,41,4,2,0,0,43,0,0,128,0,-1--1--1,,1|(0,0)|
+1,42,3,2,1,0,43,0,0,128,0,-1--1--1,,1|(396,417)|
+10,43,public education integration,770,206,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,44,35,43,1,0,45,0,0,128,0,-1--1--1,,1|(664,203)|
+1,45,43,7,1,0,45,0,0,128,0,-1--1--1,,1|(830,150)|
+10,46,"using non-political mechanisms for school assignement - e.g. matching algorithm",1069,103,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,47,46,16,1,0,45,0,0,128,0,-1--1--1,,1|(914,63)|
+1,48,14,5,1,0,43,0,0,193,0,-1--1--1,,1|(479,293)|
+10,49,black schools shutting down,731,431,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+10,50,school segragation,899,337,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,51,8,49,1,0,45,0,0,128,0,-1--1--1,,1|(816,494)|
+1,52,49,4,0,0,45,0,0,128,0,-1--1--1,,1|(0,0)|
+1,53,7,50,1,0,43,0,0,128,0,-1--1--1,,1|(979,244)|
+1,54,50,8,1,0,45,0,0,128,0,-1--1--1,,1|(972,391)|
+10,55,public support of using matching mechanisms,1099,347,75,30,8,3,0,42,-1,0,0,0,0-0-0,0-0-0,Arial|14||0-0-0,0,0,0,0,0,0
+1,56,7,55,1,0,45,0,0,128,0,-1--1--1,,1|(1066,237)|
+1,57,50,55,1,0,45,0,0,128,0,-1--1--1,,1|(987,337)|
+1,58,55,46,1,0,43,0,0,128,0,-1--1--1,,1|(1123,231)|
+1,59,14,30,1,0,43,0,0,128,0,-1--1--1,,1|(229,217)|
+12,60,28,1100,498,40,40,8,7,0,0,1,0,0,0,0,0,1,0,0,0
+So what to do now?!
+1,61,60,55,32,0,63,2,1,128,0,255-128-0,|||0-0-0,1|(0,0)|
+///---\\\
+:L<%^E!@
+5:black home distance to better schools
+9:current
+19:87,0
+24:0
+25:0
+26:0
+23:0
+15:0,0,0,0,0,0
+27:0,
+34:0,
+42:0
+72:0
+73:0
+95:0
+96:0
+97:0
+77:0
+78:0
+102:1
+93:0
+94:0
+92:0
+91:0
+90:0
+87:0
+75:
+43:
+103:8,8,8,3,8
+105:0,0,0,0,0,0,0,0,0,0
+104:Courier|12||0-0-0|0-0-0|-1--1--1|0-0-255|192-192-192|-1--1--1
